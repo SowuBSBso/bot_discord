@@ -18,9 +18,9 @@ Ce bot Discord est conçu pour gérer la modération, la gestion des rôles, l'a
 
 ## Crée le bot
 
-============================================================
+
 1. Créer une application Discord et un bot
-============================================================
+
 
 1. Va sur le site Discord Developer Portal : https://discord.com/developers/applications
 2. Connecte-toi avec ton compte Discord.
@@ -32,9 +32,9 @@ Ce bot Discord est conçu pour gérer la modération, la gestion des rôles, l'a
    ⚠️ Ce token est très important, il sert à authentifier ton bot.
    ⚠️ Garde-le secret ! Ne le partage jamais.
 
-============================================================
+
 2. Inviter ton bot sur un serveur Discord
-============================================================
+
 
 1. Dans le Developer Portal, va dans "OAuth2 > URL Generator".
 2. Dans "Scopes", coche la case "bot".
