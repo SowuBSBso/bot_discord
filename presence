@@ -1,0 +1,21 @@
+from discord.ext import tasks
+import discord
+import itertools
+
+class PresenceManager:
+    def __init__(self, bot):
+        self.bot = bot
+        self.statuses = itertools.cycle([
+            discord.Streaming(name="PSEUDO DE TON BOT", url="https://twitch.tv/pseudo twitch"),
+            discord.Game("Modération active"),
+            discord.Game("Version 1.0.0")
+        ])
+
+    @tasks.loop(seconds=60)
+    async def change_status_task(self):
+        new_status = next(self.statuses)
+        await self.bot.change_presence(activity=new_status, status=discord.Status.online)
+
+    @change_status_task.before_loop
+    async def before_change_status(self):
+        await self.bot.wait_until_ready()
