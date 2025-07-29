@@ -1,0 +1,83 @@
+COMMANDES GÉNÉRALES
+-------------------
+!setprefix <nouveau_prefix> — Change le préfixe
+!lockchannel — Verrouille le salon
+!unlockchannel — Déverrouille le salon
+!addchannel <nom> — Crée un salon
+!removechannel <nom> — Supprime un salon
+!giverole @membre <rôle> — Donne un rôle
+!removerole @membre <rôle> — Retire un rôle
+!createrole <nom> — Crée un rôle
+!ban @membre — Bannit un membre
+!kick @membre — Expulse un membre
+!mute @membre — Mute un membre
+!unmute @membre — Unmute un membre
+!backupserver — Sauvegarde le serveur
+!setupserverlog — Crée le salon #server-log
+!clear <nombre> — Supprime un nombre de messages dans le salon
+!resetserver — Réinitialise le serveur
+
+COMMANDES ANTI-RAID
+-------------------
+!antiban enable|disable
+!antibot enable|disable
+!antichannel enable|disable
+!antideco enable|disable
+!antieveryone enable|disable
+!antirole enable|disable
+!antitoken enable|disable
+!antiunban enable|disable
+!antiupdate enable|disable
+!antiwebhook enable|disable
+!blacklistrank add|remove @membre
+!creationlimit set <jours>
+
+COMMANDES LOGS
+--------------
+!autoconfiglog — Configure automatiquement tous les salons de logs
+!logstatus — Affiche l’état des logs du serveur
+!setupserverlog — Crée le salon #server-log
+
+COMMANDES AUTOMODÉRATION
+-----------------------
+!antispam on/off
+!antispam <nombre_messages>/<temps> — Configure la sensibilité antispam
+!antilink on/off
+!antilink invite|all — Configure le type de lien bloqué
+!antibadword on/off
+!badword add <mot> — Ajoute un mot interdit
+!badword del <mot> — Supprime un mot interdit
+!badword list — Liste les mots interdits
+!antimassmention on/off
+!antimassmention <nombre> — Configure le nombre max de mentions
+!punish add <strikes> <temps> <sanction> [durée] — Ajoute une punition
+!punish del <numéro> — Supprime une punition
+!punish setup — Configure automatiquement des punitions
+!punish — Liste des punitions
+!strike <action> <nombre> [ancien/nouveau] — Configure les strikes par action
+!ancien <durée> — Définit la durée pour être considéré comme ancien
+
+COMMANDES NIVEAUX / XP (EN MAINTENANCE)
+----------------------
+!lvlmessage on [salon] — Active le message de niveau dans un salon
+!lvlmessage set <message> — Définit le message de passage de niveau
+!role level add <rôle> <niveau> — Ajoute un rôle pour un niveau
+!role level del <rôle> — Supprime un rôle de niveau
+!role level list — Liste les rôles de niveau
+!role level cumul on/off — Active/désactive l’attribution cumulée de rôles
+!rate message <rate> [salon] — Configure le gain d’XP texte
+!rate voc <rate> [salon] — Configure le gain d’XP vocal
+!rate mute <pourcentage> [salon] — Réduit le gain d’XP si muet en vocal
+!rate list — Liste les salons avec un rate particulier
+!settings level — Affiche les paramètres de niveaux
+!rate level <niveau> — Indique l’activité nécessaire pour atteindre un niveau
+!cooldown <temps> — Configure le cooldown entre messages pour XP
+!xp add <nombre> [membre] — Ajoute de l’XP à un membre
+!xp remove <nombre> [membre] — Retire de l’XP à un membre
+!xp reset <membre> — Réinitialise l’XP d’un membre
+!xp resetall — Réinitialise l’XP de tous les membres
+!leaderboard level — Affiche le classement des niveaux
+
+AUTRES COMMANDES
+---------------
+!help — Affiche le message d’aide
