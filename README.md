@@ -61,3 +61,6 @@ Ce bot Discord est conçu pour gérer la modération, la gestion des rôles, l'a
 5. inviter votre bot sur votre serveur | https://discord.com/oauth2/authorize?client_id=ID DE ON BOT&scope=bot&permissions=8
 
 6. Faites clique droit sur le fichier bot.py --> ouvrir avec --> python
+
+Si vous rencontrez différent problèmes sur votre bot veuillez me contacter via discord
+pseudo : 452213119
